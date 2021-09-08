@@ -1,0 +1,29 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,sbt
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,sbt
+
+### Hugo ###
+# Generated files by hugo
+/public/
+src/hugo/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+target/
+# End of https://www.toptal.com/developers/gitignore/api/hugo,sbt
